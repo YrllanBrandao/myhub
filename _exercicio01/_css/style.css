@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Press Start 2P', cursive;
+    background: #A393BF;
+}
+a#inPage{
+    color: #483a5c;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+.noPage{
+    color: #E6DBD0;
+    text-decoration: none;
+    letter-spacing: 3px;
+    text-shadow: 1px 1px 1px #000;
+}
+.noPage:hover{
+    color: #483a5c;
+    
+}
+
+#menu{
+    background: #73648A;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100vw;
+    height: 12vh;
+}
+#menu ul{
+    margin: auto 0 ;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+#menu ul li{
+    margin: auto 50px auto 0;
+    line-height: 100%;
+
+}
+#logo{
+    margin: auto 0 auto 50px;
+    text-align: center;
+    line-height: 100%;
+    font-size: 1rem;
+    width: 100px;
+    letter-spacing: 1px;
+    color: #E6DBD0;
+    text-shadow: 1px 1px 1px #000;
+
+
+}
+i{
+    color: #55456b;
+    margin: 0 3px 0 0;
+    text-shadow: 1px 1px 1px rgb(253, 253, 253);
+    
+}
+
+#rodape{
+    width: 450px;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 20px;
+    padding-top: 4px;
+    text-align: center;
+    border-top: 1px solid #55456b;
+    font-size: 10pt;
+
+}
+/* customizando exercicio 1 */
+.conteudo {
+    background: #d7c7f5;
+    width: 450px;
+    height: 400px;
+    margin-top: 10vh;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 6px;
+    box-shadow: 1px 2px 4px  black;
+    padding: 20px;
+    
+
+}
+div{
+    text-align: center;
+
+}
+#imagem{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+}

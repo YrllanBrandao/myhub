@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="_css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Central de Exercicios</title>
+</head>
+<body >
+    <header>
+        <nav id="menu">
+            <div id="logo">CENTRAL DE EXERCICIOS</div>
+            <ul>
+                <li><a href="../index.html" class="noPage"><i class="fas fa-book"></i>inicio</a></li>
+                <li><a href="../_exercicio01/index.html" class="noPage"><i class="fas fa-book"></i>Exercicio 1</a></li>
+                <li><a href="/" class="inPage"><i class="fas fa-book"></i>Exercicio 2 </a></li>
+                
+            </ul>
+        </nav>
+
+    </header>
+    <section class="conteudo">
+        <div id="formulario">
+            <p id="primeiroParagrafo"> ano de Nascimento<input type="number"name="data" id="dataNascimento" value="2021" min="1900" max="2021" onclick="checaData" ></p>
+            <p id="segundoParagrafo"> Sexo:
+                <label for="sexoMasculino">
+                    <span id="spanMasculino"> Masculino</span>
+                    <input type="radio" name="sexo" id="sexoMasculino" onclick="checaRadio()">
+                </label>
+                <label for="sexoFeminino">
+                    <span id="spanFeminino">Feminino</span>
+                    <input type="radio" name="sexo" id="sexoFeminino" onclick="checaRadio()">
+                </label>
+            </p>
+            <input type="button" value="validar" onclick="validar()" id="botaoValidar">
+        </div>
+        <div id="foto">
+            <p id="terceiroParagrafo">Preencha os dados acima</p>
+            <img src="_image/baby_male.jpg" alt="imagem" id="imagem" >
+        </div>
+    </section>
+    <footer id="rodape">  &copy;Yrllan Brandão|  </footer>
+    <script src="_javascript/script.js"></script>
+</body>
+</html>
